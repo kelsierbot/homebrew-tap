@@ -1,25 +1,25 @@
 class Grimoire < Formula
   desc "A terminal writing desk for novels"
-  homepage "https://grimoire.joshking.ai"
-  version "0.5.5"
+  homepage "https://grimoiretui.com"
+  version "0.5.6"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/kelsierbot/GrimoireTUI/releases/download/v0.5.5/grimoire-tui-aarch64-apple-darwin.tar.xz"
-      sha256 "073787591d40d65bdbcd2ba559f7ef2fcf7b4010ce2afe991906d482d10ead76"
+      url "https://github.com/kelsierbot/GrimoireTUI/releases/download/v0.5.6/grimoire-tui-aarch64-apple-darwin.tar.xz"
+      sha256 "3fcb05dadea72826ffbba0fd887e31f3da251ffbe2aacc3be9a0f9c4cf87962e"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/kelsierbot/GrimoireTUI/releases/download/v0.5.5/grimoire-tui-x86_64-apple-darwin.tar.xz"
-      sha256 "758ec540fa53b104de961eafe57f9143d53b8b3a586d8863ff99582beb0cc863"
+      url "https://github.com/kelsierbot/GrimoireTUI/releases/download/v0.5.6/grimoire-tui-x86_64-apple-darwin.tar.xz"
+      sha256 "682f75d860f53c789139e916bfedf25b402e12f90bac3025fdc22d1cc77be96f"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/kelsierbot/GrimoireTUI/releases/download/v0.5.5/grimoire-tui-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "bd0febc646e08773f2e13d6c64618cc0e6b1af6122bebdb1f300f919f5617c77"
+      url "https://github.com/kelsierbot/GrimoireTUI/releases/download/v0.5.6/grimoire-tui-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "9b1043b876a45ff5acc409fc26227303fb304a5962a986515bed2ec8974fce34"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/kelsierbot/GrimoireTUI/releases/download/v0.5.5/grimoire-tui-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "35dc6d76176104b80128251ad9c63c7af9a166d365c2db04c9c23aa6cae45f83"
+      url "https://github.com/kelsierbot/GrimoireTUI/releases/download/v0.5.6/grimoire-tui-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "d78548d440c3f4c004df9380c2d777d92c1f04af327c9298bcfa0b8f0fe0ed9d"
     end
   end
   license "MIT"
