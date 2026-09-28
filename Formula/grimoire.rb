@@ -1,25 +1,25 @@
 class Grimoire < Formula
   desc "A terminal writing desk for novels"
   homepage "https://grimoiretui.com"
-  version "0.7.2"
+  version "0.7.3"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/kelsierbot/GrimoireTUI/releases/download/v0.7.2/grimoire-tui-aarch64-apple-darwin.tar.xz"
-      sha256 "ea2a3427c252689930df71fcbbde604c1fd579626f73af2256f9320c96d9c507"
+      url "https://github.com/kelsierbot/GrimoireTUI/releases/download/v0.7.3/grimoire-tui-aarch64-apple-darwin.tar.xz"
+      sha256 "500e6e7d9c17747e7e8f6fbf22b07d7300f116357eb9725407139f76306c6793"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/kelsierbot/GrimoireTUI/releases/download/v0.7.2/grimoire-tui-x86_64-apple-darwin.tar.xz"
-      sha256 "f956c015855088d47113875c9ff8f6d821202c42402d07281b32cfd7ed78553e"
+      url "https://github.com/kelsierbot/GrimoireTUI/releases/download/v0.7.3/grimoire-tui-x86_64-apple-darwin.tar.xz"
+      sha256 "ab9477e80a9edae5575b438f2a962dbd7a63b9b5c8f05b1ef91eb38a667b395c"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/kelsierbot/GrimoireTUI/releases/download/v0.7.2/grimoire-tui-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "658816b054c56f7bf41e303f74845e4f2cceb4ee3a1c7e6b611d1611d8ad5235"
+      url "https://github.com/kelsierbot/GrimoireTUI/releases/download/v0.7.3/grimoire-tui-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "156c143181b61db3606e7b6083d386af17c5ebfa83971c9561c587e027702eeb"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/kelsierbot/GrimoireTUI/releases/download/v0.7.2/grimoire-tui-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "2018170723af0412811ef574f320047520958443713463029c7dc3d37ca475ca"
+      url "https://github.com/kelsierbot/GrimoireTUI/releases/download/v0.7.3/grimoire-tui-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "67f5f5516d3b7ddfaadc8d6ee82da8ee04e36037e1ba00ce3dd8707bc67f3009"
     end
   end
   license "MIT"
